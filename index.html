@@ -1,0 +1,56 @@
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif|Lato" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.8.0/d3.js"></script>
+    <script src="js/vendor/d3-tip.js"></script>
+</head>
+    
+<body>
+<div class="container">
+    
+    <div class="bgBlue">
+    <h1>Visualizing user activity on Stack Exchange</h1>
+    </div>
+    
+    <div class="info">
+    <h2>When are Stack Exchange users most active based on their answering rate? Datasets of seven subsites reveal peaks and drops in activity throughout the day.</h2>
+    <p>I’ve gathered datasets of seven random Stack Exchange subsites discussing a wide range of subjects such as fitness, gardening and woodworking. I then use the total amounts of answers per hour per site to visualize peaks and drops in daily activity over a five year period, from 2011 to 2016.</p>
+
+    <p>The following heatmaps reveal the average amount of hourly activity per site.</p>
+    </div>
+    
+    <h3>3D Printing</h3>
+    <div id="chart_3d" class="chart"></div>
+    <h3>Fitness</h3>
+    <div id="chart_fit" class="chart"></div>
+    <h3>Gardening</h3>
+    <div id="chart_gardening" class="chart"></div>
+    <h3>History</h3>
+    <div id="chart_history" class="chart"></div>
+    <h3>Linguistics</h3>
+    <div id="chart_linguistics" class="chart"></div>
+    <h3>Reverse Engineering</h3>
+    <div id="chart_reverseengineering" class="chart"></div>
+    <h3>Woodworking</h3>
+    <div id="chart_woodworking" class="chart"></div>
+</div>
+    
+
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+<script src="js/main.js"></script>
+</body>
+</html>
