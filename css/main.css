@@ -1,4 +1,22 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+.tagcontainer p, .tagcontainer a {
+    color: #888;
+    text-decoration: none;
+}
+
+.tagcontainer p:hover, .tagcontainer a:hover {
+    color: #222;
+}
+
+.headerleft {
+    float: left;
+}
+
+.tagcontainer {
+    max-width: 100%;
+    margin: 0 auto -10px auto;
+    height: 28px;
+}
 
 html {
     color: #222;
